@@ -1,0 +1,9 @@
+{
+  "name": "new dog",
+  "id": 2,
+  "owner": "same owner",
+  "goodDog": true,
+  "puppies": [{
+    "name": "puppy"
+  }]
+}
