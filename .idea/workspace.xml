@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99fc8acf-4b6b-45dc-b17b-b66df9c1ba36" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/test/java/com/dogs/consumer/SpringMockContractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/test/java/com/dogs/consumer/SpringMockContractTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/java/karate/contract/DogIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/test/java/karate/contract/ProviderContractTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/java/karate/mock/MockDogContractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/test/java/karate/mock/MockProviderContractTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="99fc8acf-4b6b-45dc-b17b-b66df9c1ba36" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
