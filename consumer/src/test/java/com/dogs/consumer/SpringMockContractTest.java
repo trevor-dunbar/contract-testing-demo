@@ -22,39 +22,55 @@ class SpringMockContractTest {
     @RegisterExtension
     public StubRunnerExtension stubRunner = new StubRunnerExtension()
             .downloadStub("com.dogs", "producer", "0.0.1-SNAPSHOT", "stubs")
-            .withPort(8100)
-            .stubsMode(StubRunnerProperties.StubsMode.LOCAL);
+            .withPort(8080)
+            .stubsMode(StubRunnerProperties.StubsMode.LOCAL); //local m2 - also valid: remote and classpath
+
 
     @Test
-    public void get_dog_from_producer_contract() {
+    public void getDogFromProducer_contractTest() {
         // given:
         RestTemplate restTemplate = new RestTemplate();
 
 		// when:
-        ResponseEntity<Dog> dogResponseEntity = restTemplate.getForEntity("http://localhost:8100/dog/1", Dog.class);
+        ResponseEntity<Dog> dogResponseEntity = restTemplate.getForEntity("http://localhost:8080/dog/1", Dog.class);
 
         // then:
 		BDDAssertions.then(dogResponseEntity.getStatusCodeValue()).isEqualTo(200);
         BDDAssertions.then(dogResponseEntity.getBody())
-                .isEqualTo(Dog.builder().id(1).name("Scooby Doo").owner("Shaggy").goodDog(false).build());
+                .isEqualTo(Dog.builder().id(1).name("Scooby Doo").owner("Shaggy").goodDog(true).build());
     }
 
     @Test
-    public void get_dogs_from_producer_contract(){
+    public void getDogFromProducerDogClient_contractTest() {
+        // given:
+        DogClient client = new DogClient();
+
+        // when:
+        Dog dogResponse = client.getDogByIdFromProducer(1);
+
+        // then:
+//        BDDAssertions.then(dogResponseEntity.getStatusCodeValue()).isEqualTo(200);
+        BDDAssertions.then(dogResponse)
+                .isEqualTo(Dog.builder().id(1).name("Scooby Doo").owner("Shaggy").goodDog(true).build());
+    }
+
+
+    @Test
+    public void getDogsFromProducer_contractTest(){
         //given
         RestTemplate restTemplate = new RestTemplate();
 
         //when
-        ResponseEntity<Dog[]> dogResponseEntity = restTemplate.getForEntity("http://localhost:8100/dogs", Dog[].class);
+        ResponseEntity<Dog[]> dogResponseEntity = restTemplate.getForEntity("http://localhost:8080/dogs", Dog[].class);
 
         //then
         BDDAssertions.then(dogResponseEntity.getStatusCodeValue()).isEqualTo(200);
         BDDAssertions.then(dogResponseEntity.getBody())
-                .isEqualTo(toArray(Dog.builder().id(1).name("Scooby Doo").owner("Shaggy").goodDog(false).build()));
+                .isEqualTo(toArray(Dog.builder().id(1).name("Scooby Doo").owner("Shaggy").goodDog(true).build()));
     }
 
     @Test
-    public void post_dog_to_producer_contract(){
+    public void postDogToProducer_contractTest(){
         //given
         RestTemplate restTemplate = new RestTemplate();
         Dog dog = Dog.builder()
@@ -66,11 +82,10 @@ class SpringMockContractTest {
         HttpEntity<Dog> request = new HttpEntity<>(dog);
 
         //when
-        ResponseEntity<Dog> dogResponseEntity = restTemplate.postForEntity("http://localhost:8100/dog", request, Dog.class);
+        ResponseEntity<Dog> dogResponseEntity = restTemplate.postForEntity("http://localhost:8080/dog", request, Dog.class);
 
         //then
         BDDAssertions.then(dogResponseEntity.getStatusCodeValue()).isEqualTo(200);
-
         dog.setId(2);
         BDDAssertions.then(dogResponseEntity.getBody())
                 .isEqualTo(dog);

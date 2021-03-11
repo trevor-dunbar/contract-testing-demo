@@ -36,7 +36,7 @@
 			<scope>test</scope>
 		</dependency>
 
-<!--		Contract testing-->
+<!--		Spring cloud contract testing-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-contract-verifier</artifactId>
@@ -60,6 +60,7 @@
 		</dependency>
 	</dependencies>
 
+<!--	spring cloud contract testing-->
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -74,7 +75,7 @@
 
 	<build>
 		<plugins>
-<!--			Contract testing-->
+<!--			spring cloud contract testing-->
 			<plugin>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-contract-maven-plugin</artifactId>
@@ -103,16 +104,7 @@
 						</exclude>
 					</excludes>
 				</configuration>
-				<executions>
-					<execution>
-						<goals>
-							<goal>repackage</goal>
-						</goals>
-						<configuration>
-							<classifier>exec</classifier>
-						</configuration>
-					</execution>
-				</executions>
+
 			</plugin>
 		</plugins>
 

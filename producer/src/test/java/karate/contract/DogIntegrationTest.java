@@ -11,7 +11,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 @KarateOptions(features = "classpath:karate/contract/dog-contract.feature")
 @RunWith(Karate.class)
-public class DogContractTest {
+public class DogIntegrationTest {
 
     private static ConfigurableApplicationContext context;
 

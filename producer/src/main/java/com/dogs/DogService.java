@@ -13,15 +13,12 @@ public class DogService {
 
     public DogService(){
         dogDB = new HashMap<>();
-        Dog babyBud = Dog.builder().id(2).name("Baby Bud").goodDog(false).build();
+
+        Dog babyBud = Dog.builder().id(2).name("Baby Scooby").goodDog(false).build();
         dogDB.put(babyBud.getId(), babyBud);
 
-        Dog scoobyDoo = Dog.builder().id(1).name("Scooby Doo").owner("Shaggy").goodDog(false).puppies(singletonList(babyBud)).build();
+        Dog scoobyDoo = Dog.builder().id(1).name("Scooby Doo").owner("Shaggy").goodDog(true).puppies(singletonList(babyBud)).build();
         dogDB.put(scoobyDoo.getId(), scoobyDoo);
-
-
-//        Dog airBud = Dog.builder().id(3).name("Air Bud").goodDog(true).puppies(singletonList(babyBud)).build();
-//        dogDB.put(airBud.getId(), airBud);
     }
 
 

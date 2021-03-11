@@ -33,7 +33,7 @@ abstract class BaseClass {
                 .id(1)
                 .name("Scooby Doo")
                 .owner("Shaggy")
-                .goodDog(false)
+                .goodDog(true)
                 .build();
 
         Dog newDog = Dog.builder()

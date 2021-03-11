@@ -19,7 +19,7 @@ Contract.make {
                 id: 1,
                 name: "Scooby Doo",
                 owner: "Shaggy",
-                goodDog: false
+                goodDog: true
         )
     }
 }

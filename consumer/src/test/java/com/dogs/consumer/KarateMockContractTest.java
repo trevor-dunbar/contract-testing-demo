@@ -1,15 +1,12 @@
 package com.dogs.consumer;
 
 
-import com.intuit.karate.FileUtils;
 import com.intuit.karate.netty.FeatureServer;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.io.File;
-import java.util.Arrays;
-import java.util.Collections;
 
 import static java.util.Collections.emptyList;
 import static org.junit.Assert.assertEquals;

@@ -80,14 +80,6 @@
 			<scope>test</scope>
 		</dependency>
 
-<!--		<dependency>-->
-<!--			<groupId>com.dogs</groupId>-->
-<!--			<artifactId>producer</artifactId>-->
-<!--			<version>0.0.1-SNAPSHOT</version>-->
-<!--			<scope>test</scope>-->
-<!--			<classifier>exec</classifier>-->
-<!--		</dependency>-->
-
 	</dependencies>
 
 
