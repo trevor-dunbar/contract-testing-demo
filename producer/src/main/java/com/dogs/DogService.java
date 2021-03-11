@@ -17,7 +17,7 @@ public class DogService {
         Dog babyBud = Dog.builder().id(2).name("Baby Scooby").goodDog(false).build();
         dogDB.put(babyBud.getId(), babyBud);
 
-        Dog scoobyDoo = Dog.builder().id(1).name("Scooby Doo").owner("Shaggy").goodDog(true).puppies(singletonList(babyBud)).build();
+        Dog scoobyDoo = Dog.builder().id(1).name("Scooby Doo").goodDog(true).puppies(singletonList(babyBud)).build();
         dogDB.put(scoobyDoo.getId(), scoobyDoo);
     }
 

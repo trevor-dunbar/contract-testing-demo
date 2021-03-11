@@ -1,6 +1,0 @@
-{
-  "name": "new dog",
-  "owner": "same owner",
-  "goodDog": true,
-  "puppies": [{"name": "puppy"}]
-}

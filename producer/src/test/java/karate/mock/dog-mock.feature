@@ -8,7 +8,7 @@ Feature: dog producer mock
     * def id = dogs.size() + 1
     * dog.id = id
     * dogs.add(dog)
-    * def response = dog
+    * def response = { id:'#(id)', name: '#(dog.name)',  owner: '#(dog.owner)', goodDog: '#(dog.goodDog)', puppies: '#(dog.puppies)' }
 
   Scenario: pathMatches('/dog/{id}') && methodIs('get')
     * def response = dogs[pathParams.id - 1]

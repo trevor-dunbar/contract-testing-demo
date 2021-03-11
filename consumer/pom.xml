@@ -48,15 +48,6 @@
 			<scope>compile</scope>
 		</dependency>
 
-
-<!--		Spring Cloud Contract-->
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-contract-stub-runner</artifactId>
-			<scope>test</scope>
-		</dependency>
-
-
 <!--		karate Dependencies-->
 
 		<dependency>
@@ -69,31 +60,19 @@
 		<dependency>
 			<groupId>com.intuit.karate</groupId>
 			<artifactId>karate-apache</artifactId>
-			<version>0.9.5</version>
+			<version>0.9.6</version>
 			<scope>test</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>com.intuit.karate</groupId>
 			<artifactId>karate-junit4</artifactId>
-			<version>0.9.5</version>
+			<version>0.9.6</version>
 			<scope>test</scope>
 		</dependency>
 
 	</dependencies>
 
-
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>org.springframework.cloud</groupId>
-				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>${spring-cloud.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
 
 	<build>
 		<plugins>

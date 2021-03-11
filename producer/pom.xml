@@ -36,13 +36,6 @@
 			<scope>test</scope>
 		</dependency>
 
-<!--		Spring cloud contract testing-->
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-contract-verifier</artifactId>
-			<scope>test</scope>
-		</dependency>
-
 
 <!--		Karate testing-->
 		<dependency>
@@ -60,32 +53,9 @@
 		</dependency>
 	</dependencies>
 
-<!--	spring cloud contract testing-->
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>org.springframework.cloud</groupId>
-				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>${spring-cloud.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
 
 	<build>
 		<plugins>
-<!--			spring cloud contract testing-->
-			<plugin>
-				<groupId>org.springframework.cloud</groupId>
-				<artifactId>spring-cloud-contract-maven-plugin</artifactId>
-				<version>3.0.1</version>
-				<extensions>true</extensions>
-				<configuration>
-					<baseClassForTests>spring.contract.BaseClass</baseClassForTests>
-				</configuration>
-			</plugin>
-
 <!--			Karate testing-->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

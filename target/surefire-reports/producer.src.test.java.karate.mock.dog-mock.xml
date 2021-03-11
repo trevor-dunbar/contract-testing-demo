@@ -1,0 +1,56 @@
+<testsuite failures="2" name="producer/src/test/java/karate/mock/dog-mock.feature" skipped="0" tests="3" time="0.202942">
+  <testcase classname="producer.src.test.java.karate.mock.dog-mock" name="pathMatches('/dog') &amp;&amp; methodIs('post')" time="0.174725">
+    <failure message="dog-mock.feature:7 - javascript evaluation failed: request, ReferenceError: &quot;request&quot; is not defined in &lt;eval&gt; at line number 1">* def dogs = [] ........................................................... passed
+* def dog = request ....................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: dog-mock.feature:7 - javascript evaluation failed: request, ReferenceError: "request" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def dog = request (dog-mock.feature:7)&#13;
+
+* def id = dogs.size() + 1 ................................................ skipped
+* dog.id = id ............................................................. skipped
+* dogs.add(dog) ........................................................... skipped
+* def response = dog ...................................................... skipped</failure>
+  </testcase>
+  <testcase classname="producer.src.test.java.karate.mock.dog-mock" name="pathMatches('/dog/{id}') &amp;&amp; methodIs('get')" time="0.027699">
+    <failure message="dog-mock.feature:14 - javascript evaluation failed: dogs[pathParams.id - 1], ReferenceError: &quot;pathParams&quot; is not defined in &lt;eval&gt; at line number 1">* def dogs = [] ........................................................... passed
+* def dog = request ....................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: dog-mock.feature:7 - javascript evaluation failed: request, ReferenceError: "request" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def dog = request (dog-mock.feature:7)&#13;
+
+* def id = dogs.size() + 1 ................................................ skipped
+* dog.id = id ............................................................. skipped
+* dogs.add(dog) ........................................................... skipped
+* def response = dog ...................................................... skipped
+* def dogs = [] ........................................................... passed
+* def response = dogs[pathParams.id - 1] .................................. failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: dog-mock.feature:14 - javascript evaluation failed: dogs[pathParams.id - 1], ReferenceError: "pathParams" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def response = dogs[pathParams.id - 1] (dog-mock.feature:14)</failure>
+  </testcase>
+  <testcase classname="producer.src.test.java.karate.mock.dog-mock" name="pathMatches('/dogs')" time="0.000518">
+    <system-out>* def dogs = [] ........................................................... passed
+* def dog = request ....................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: dog-mock.feature:7 - javascript evaluation failed: request, ReferenceError: "request" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def dog = request (dog-mock.feature:7)&#13;
+
+* def id = dogs.size() + 1 ................................................ skipped
+* dog.id = id ............................................................. skipped
+* dogs.add(dog) ........................................................... skipped
+* def response = dog ...................................................... skipped
+* def dogs = [] ........................................................... passed
+* def response = dogs[pathParams.id - 1] .................................. failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: dog-mock.feature:14 - javascript evaluation failed: dogs[pathParams.id - 1], ReferenceError: "pathParams" is not defined in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def response = dogs[pathParams.id - 1] (dog-mock.feature:14)&#13;
+
+* def dogs = [] ........................................................... passed
+* def response = dogs ..................................................... passed</system-out>
+  </testcase>
+</testsuite>
