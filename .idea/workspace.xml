@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99fc8acf-4b6b-45dc-b17b-b66df9c1ba36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/test/java/com/dogs/consumer/KarateMockContractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/test/java/com/dogs/consumer/KarateMockContractTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/test/java/com/dogs/consumer/SpringMockContractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/test/java/com/dogs/consumer/SpringMockContractTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/dogs/DogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/com/dogs/DogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/java/karate/contract/DogContractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/test/java/karate/contract/DogIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/java/karate/mock/dog-mock.feature" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/test/java/karate/mock/dog-mock.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/java/spring/contract/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/test/java/spring/contract/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/resources/contracts/getDogsResponse.json" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/test/resources/contracts/getDogsResponse.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/resources/contracts/get_dog.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/test/resources/contracts/get_dog.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/resources/contracts/postDogResponse.json" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/test/resources/contracts/postDogResponse.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/test/java/karate/contract/DogIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/test/java/karate/contract/ProviderContractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/test/java/karate/mock/MockDogContractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/test/java/karate/mock/MockProviderContractTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,32 +61,16 @@
       <recent name="C:\Users\trevor.d.dunbar\workspace\dogs-contract-testing-demo\producer\src\test\resources\contracts" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MockDogContractTest">
-    <configuration name="ContractVerifierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spring.contract.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="spring.contract.ContractVerifierTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DogIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.KarateMockContractTest.getDogs_postDog_getDogs_getDog">
+    <configuration name="ProducerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dogs.ProducerApplication" />
       <module name="producer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="karate.contract.*" />
+          <option name="PATTERN" value="com.dogs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="karate.contract" />
-      <option name="MAIN_CLASS_NAME" value="karate.contract.DogIntegrationTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,22 +90,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MockDogContractTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="producer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="karate.mock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="karate.mock" />
-      <option name="MAIN_CLASS_NAME" value="karate.mock.MockDogContractTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringMockContractTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KarateMockContractTest.getDogs_postDog_getDogs_getDog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="consumer" />
       <extension name="coverage">
         <pattern>
@@ -139,7 +99,38 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.dogs.consumer" />
-      <option name="MAIN_CLASS_NAME" value="com.dogs.consumer.SpringMockContractTest" />
+      <option name="MAIN_CLASS_NAME" value="com.dogs.consumer.KarateMockContractTest" />
+      <option name="METHOD_NAME" value="getDogs_postDog_getDogs_getDog" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockProviderContractTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="karate.mock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="karate.mock" />
+      <option name="MAIN_CLASS_NAME" value="karate.mock.MockProviderContractTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderContractTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="karate.contract.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="karate.contract" />
+      <option name="MAIN_CLASS_NAME" value="karate.contract.ProviderContractTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MockDogContractTest" />
-        <item itemvalue="JUnit.SpringMockContractTest" />
+        <item itemvalue="JUnit.KarateMockContractTest.getDogs_postDog_getDogs_getDog" />
+        <item itemvalue="JUnit.ProviderContractTest" />
+        <item itemvalue="JUnit.MockProviderContractTest" />
         <item itemvalue="JUnit.KarateMockContractTest" />
-        <item itemvalue="JUnit.DogIntegrationTest" />
-        <item itemvalue="JUnit.ContractVerifierTest" />
+        <item itemvalue="Application.ProducerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -205,22 +196,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1614975580592" />
-    <state width="1237" height="291" key="GridCell.Tab.0.bottom" timestamp="1615414615588">
+    <state width="1237" height="291" key="GridCell.Tab.0.bottom" timestamp="1615467911362">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="291" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1615414615588" />
-    <state width="1237" height="291" key="GridCell.Tab.0.center" timestamp="1615414615588">
+    <state width="1237" height="291" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1615467911362" />
+    <state width="1237" height="291" key="GridCell.Tab.0.center" timestamp="1615467911362">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="291" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1615414615588" />
-    <state width="1237" height="291" key="GridCell.Tab.0.left" timestamp="1615414615588">
+    <state width="1237" height="291" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1615467911362" />
+    <state width="1237" height="291" key="GridCell.Tab.0.left" timestamp="1615467911362">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="291" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1615414615588" />
-    <state width="1237" height="291" key="GridCell.Tab.0.right" timestamp="1615414615588">
+    <state width="1237" height="291" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1615467911362" />
+    <state width="1237" height="291" key="GridCell.Tab.0.right" timestamp="1615467911362">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="291" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1615414615588" />
+    <state width="1237" height="291" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1615467911362" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1615221232146">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -12,12 +12,12 @@ import java.io.File;
 
 @RunWith(Karate.class)
 @KarateOptions(features = "classpath:karate/contract/dog-contract.feature")
-public class MockDogContractTest {
+public class MockProviderContractTest {
     private static FeatureServer server;
 
     @BeforeClass
     public static void beforeClass() {
-        File file = FileUtils.getFileRelativeTo(MockDogContractTest.class, "dog-mock.feature");
+        File file = FileUtils.getFileRelativeTo(MockProviderContractTest.class, "dog-mock.feature");
         server = FeatureServer.start(file, 8080, false, null);
     }
 

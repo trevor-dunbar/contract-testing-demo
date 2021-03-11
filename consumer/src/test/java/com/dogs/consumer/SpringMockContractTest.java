@@ -10,8 +10,6 @@ import org.springframework.http.HttpEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.ArrayList;
-
 import static java.util.Arrays.asList;
 import static org.apache.commons.lang3.ArrayUtils.toArray;
 
@@ -23,7 +21,7 @@ class SpringMockContractTest {
     public StubRunnerExtension stubRunner = new StubRunnerExtension()
             .downloadStub("com.dogs", "producer", "0.0.1-SNAPSHOT", "stubs")
             .withPort(8080)
-            .stubsMode(StubRunnerProperties.StubsMode.LOCAL); //local m2 - also valid: remote and classpath
+            .stubsMode(StubRunnerProperties.StubsMode.LOCAL); //local .m2 - also valid: remote and classpath
 
 
     @Test
