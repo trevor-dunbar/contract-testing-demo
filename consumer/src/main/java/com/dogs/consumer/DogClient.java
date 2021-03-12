@@ -13,15 +13,15 @@ public class DogClient {
 
     private final RestTemplate restTemplate = new RestTemplate();
 
-    public Dog[] getDogsFromProducer() {
+    public Dog[] getDogsFromProvider() {
         return restTemplate.getForEntity(baseUrl.concat("/dogs"), Dog[].class).getBody();
     }
 
-    public Dog getDogByIdFromProducer(int id) {
+    public Dog getDogByIdFromProvider(int id) {
         return restTemplate.getForEntity(baseUrl.concat("/dog/" + id), Dog.class).getBody();
     }
 
-    public Dog postDogToProducer(Dog dog){
+    public Dog postDogToProvider(Dog dog){
         HttpEntity<Dog> request = new HttpEntity<>(dog);
         return restTemplate.postForEntity(baseUrl.concat("/dog"), request, Dog.class).getBody();
     }

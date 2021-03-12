@@ -10,7 +10,7 @@
 
     <modules>
         <module>consumer</module>
-        <module>producer</module>
+        <module>provider</module>
     </modules>
 
 </project>

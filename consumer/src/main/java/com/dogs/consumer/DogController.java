@@ -17,16 +17,16 @@ public class DogController {
 
     @GetMapping("/dogs")
     public List<Dog> getDogs() {
-        return Arrays.asList(dogClient.getDogsFromProducer());
+        return Arrays.asList(dogClient.getDogsFromProvider());
     }
 
     @GetMapping("/dog/{id}")
     public Dog getDogById(@PathVariable int id) {
-        return dogClient.getDogByIdFromProducer(id);
+        return dogClient.getDogByIdFromProvider(id);
     }
 
     @PostMapping("/dog")
     public Dog addDog(Dog dog) {
-        return dogClient.postDogToProducer(dog);
+        return dogClient.postDogToProvider(dog);
     }
 }

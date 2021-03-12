@@ -19,13 +19,13 @@ class SpringMockContractTest {
 
     @RegisterExtension
     public StubRunnerExtension stubRunner = new StubRunnerExtension()
-            .downloadStub("com.dogs", "producer", "0.0.1-SNAPSHOT", "stubs")
+            .downloadStub("com.dogs", "provider", "0.0.1-SNAPSHOT", "stubs")
             .withPort(8080)
             .stubsMode(StubRunnerProperties.StubsMode.LOCAL); //local .m2 - also valid: remote and classpath
 
 
     @Test
-    public void getDogFromProducer_contractTest() {
+    public void getDogFromProvider_contractTest() {
         // given:
         RestTemplate restTemplate = new RestTemplate();
 
@@ -39,12 +39,12 @@ class SpringMockContractTest {
     }
 
     @Test
-    public void getDogFromProducerDogClient_contractTest() {
+    public void getDogFromProviderDogClient_contractTest() {
         // given:
         DogClient client = new DogClient();
 
         // when:
-        Dog dogResponse = client.getDogByIdFromProducer(1);
+        Dog dogResponse = client.getDogByIdFromProvider(1);
 
         // then:
 //        BDDAssertions.then(dogResponseEntity.getStatusCodeValue()).isEqualTo(200);
@@ -54,7 +54,7 @@ class SpringMockContractTest {
 
 
     @Test
-    public void getDogsFromProducer_contractTest(){
+    public void getDogsFromProvider_contractTest(){
         //given
         RestTemplate restTemplate = new RestTemplate();
 
@@ -68,7 +68,7 @@ class SpringMockContractTest {
     }
 
     @Test
-    public void postDogToProducer_contractTest(){
+    public void postDogToProvider_contractTest(){
         //given
         RestTemplate restTemplate = new RestTemplate();
         Dog dog = Dog.builder()

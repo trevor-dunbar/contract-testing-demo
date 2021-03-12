@@ -2,22 +2,22 @@ package com.dogs;
 
 import org.springframework.stereotype.Service;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
-import static java.util.Collections.singletonList;
+import static java.util.Collections.emptyList;
 
 @Service
 public class DogService {
 
     private Map<Integer, Dog> dogDB;
 
-    public DogService(){
+    public DogService() {
         dogDB = new HashMap<>();
 
-        Dog babyBud = Dog.builder().id(2).name("Baby Scooby").goodDog(false).build();
-        dogDB.put(babyBud.getId(), babyBud);
-
-        Dog scoobyDoo = Dog.builder().id(1).name("Scooby Doo").owner("Shaggy").goodDog(true).puppies(singletonList(babyBud)).build();
+        Dog scoobyDoo = Dog.builder().id(1).name("Scooby Doo").owner("Shaggy").goodDog(true).puppies(emptyList()).build();
         dogDB.put(scoobyDoo.getId(), scoobyDoo);
     }
 
@@ -30,7 +30,7 @@ public class DogService {
         return dogDB.get(id);
     }
 
-    public Dog addDog(Dog dog){
+    public Dog addDog(Dog dog) {
         dogDB.put(dogDB.size() + 1, dog);
         dog.setId(dogDB.size());
         return dog;
