@@ -15,7 +15,7 @@ Contract.make {
         headers {
             contentType applicationJson()
         }
-        body(file("getDogsResponse.json"))
+        body(file("requests-responses/getDogsResponse.json"))
     }
 }
 

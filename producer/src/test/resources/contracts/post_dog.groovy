@@ -11,7 +11,7 @@ Contract.make {
         headers {
             contentType applicationJson()
         }
-        body(file("postDogRequest.json"))
+        body(file("requests-responses/postDogRequest.json"))
     }
 
     response {
@@ -19,6 +19,6 @@ Contract.make {
         headers {
             contentType applicationJson()
         }
-        body(file("postDogResponse.json"))
+        body(file("requests-responses/postDogResponse.json"))
     }
 }
