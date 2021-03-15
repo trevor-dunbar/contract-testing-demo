@@ -2,42 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99fc8acf-4b6b-45dc-b17b-b66df9c1ba36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_intuit_karate_karate_apache_0_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_intuit_karate_karate_junit4_0_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/ForkJoinPool-1-worker-3.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/producer.src.test.java.karate.mock.dog-mock.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/producer.src.test.java.karate.mock.dog-mock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/producer.src.test.java.karate.mock.dog-mock.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/results-json.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/timeline.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_55.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_agentproxy_core_0_0_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_agentproxy_jsch_0_0_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_agentproxy_sshagent_0_0_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_agentproxy_usocket_jna_0_0_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_5_1_3_201810200350_r.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_contract_converters_3_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_contract_stub_runner_3_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_contract_wiremock_3_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_contract_stub_runner_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jknack_handlebars_4_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_tomakehurst_wiremock_jre8_standalone_2_27_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_ibm_icu_icu4j_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_intuit_karate_karate_apache_0_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_intuit_karate_karate_apache_0_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_intuit_karate_karate_core_0_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_intuit_karate_karate_core_0_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_intuit_karate_karate_junit4_0_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_intuit_karate_karate_junit4_0_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_rackspace_eclipse_webtools_sourceediting_org_eclipse_wst_xml_xpath2_processor_2_1_100.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_toomuchcoding_jsonassert_jsonassert_0_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_siegmar_fastcsv_1_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dk_brics_automaton_automaton_1_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__edu_princeton_cup_java_cup_10k.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_picocli_picocli_4_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_3_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_3_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_3_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_spring_commons_3_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_spring_mock_mvc_3_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_3_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_javacrumbs_json_unit_json_unit_assertj_2_19_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_javacrumbs_json_unit_json_unit_core_2_19_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_javacrumbs_json_unit_json_unit_json_path_2_19_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_text_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_resolver_maven_resolver_api_1_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_sling_org_apache_sling_javax_activation_0_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_5_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_2_5_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_nio_2_5_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_2_5_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_core_compiler_ecj_4_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_contract_shade_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_contract_spec_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_contract_spec_groovy_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_contract_spec_java_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_contract_verifier_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_compiler_3_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_contract_verifier_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/test/java/com/dogs/consumer/SpringMockContractTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/producer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/dogs/DogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/main/java/com/dogs/DogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/java/karate/contract/dog-contract.feature" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/test/java/karate/contract/dog-contract.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/java/karate/mock/dog-mock.feature" beforeDir="false" afterPath="$PROJECT_DIR$/producer/src/test/java/karate/mock/dog-mock.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/java/spring/contract/BaseClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/resources/contracts/getDogsResponse.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/resources/contracts/get_dog.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/resources/contracts/get_dogs.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/resources/contracts/postDogRequest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/resources/contracts/postDogResponse.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/resources/contracts/post_dog.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/dogs/consumer/DogClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/dogs/consumer/DogClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/dogs/consumer/DogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/dogs/consumer/DogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/test/java/com/dogs/consumer/KarateMockContractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/test/java/com/dogs/consumer/KarateMockContractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/provider/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/[Help" beforeDir="false" afterPath="$PROJECT_DIR$/provider/[Help" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/provider/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/provider/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/dogs/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/dogs/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/dogs/DogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/dogs/DogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/dogs/DogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/dogs/DogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/dogs/ProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/dogs/ProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/test/java/karate-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/test/java/karate-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/test/java/karate/contract/ProviderContractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/test/java/karate/contract/ProviderContractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/test/java/karate/contract/dog-contract.feature" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/test/java/karate/contract/dog-contract.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/test/java/karate/mock/MockProviderContractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/test/java/karate/mock/MockProviderContractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/src/test/java/karate/mock/dog-mock.feature" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/test/java/karate/mock/dog-mock.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,18 +144,13 @@
       <recent name="C:\Users\trevor.d.dunbar\workspace\dogs-contract-testing-demo\producer\src\test\resources\contracts" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KarateMockContractTest.getDogs_postDog_getDogs_getDog">
-    <configuration name="Feature: dog-mock" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/producer/src/test/java/karate/mock/dog-mock.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="producer" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: dog-mock" />
+  <component name="RunManager" selected="Application.ProviderApplication">
+    <configuration name="ProviderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dogs.ProviderApplication" />
+      <module name="provider" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="com.dogs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,7 +190,7 @@
       </method>
     </configuration>
     <configuration name="MockProviderContractTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="producer" />
+      <module name="provider" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="karate.mock.*" />
@@ -159,7 +205,7 @@
       </method>
     </configuration>
     <configuration name="ProviderContractTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="producer" />
+      <module name="provider" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="karate.contract.*" />
@@ -175,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProviderApplication" />
         <item itemvalue="JUnit.KarateMockContractTest.getDogs_postDog_getDogs_getDog" />
         <item itemvalue="JUnit.MockProviderContractTest" />
         <item itemvalue="JUnit.ProviderContractTest" />
         <item itemvalue="JUnit.KarateMockContractTest" />
-        <item itemvalue="Cucumber java.Feature: dog-mock" />
       </list>
     </recent_temporary>
   </component>
@@ -233,22 +279,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1614975580592" />
-    <state width="1237" height="317" key="GridCell.Tab.0.bottom" timestamp="1615494555517">
+    <state width="1237" height="317" key="GridCell.Tab.0.bottom" timestamp="1615833514228">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="317" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1615494555517" />
-    <state width="1237" height="317" key="GridCell.Tab.0.center" timestamp="1615494555517">
+    <state width="1237" height="317" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1615833514228" />
+    <state width="1237" height="317" key="GridCell.Tab.0.center" timestamp="1615833514228">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="317" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1615494555517" />
-    <state width="1237" height="317" key="GridCell.Tab.0.left" timestamp="1615494555517">
+    <state width="1237" height="317" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1615833514228" />
+    <state width="1237" height="317" key="GridCell.Tab.0.left" timestamp="1615833514228">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="317" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1615494555517" />
-    <state width="1237" height="317" key="GridCell.Tab.0.right" timestamp="1615494555517">
+    <state width="1237" height="317" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1615833514228" />
+    <state width="1237" height="317" key="GridCell.Tab.0.right" timestamp="1615833514228">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="317" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1615494555517" />
+    <state width="1237" height="317" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1615833514228" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1615484556179">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -277,10 +323,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1615323269817" />
-    <state x="336" y="72" width="609" height="536" key="find.popup" timestamp="1615482537369">
+    <state x="336" y="72" width="609" height="536" key="find.popup" timestamp="1615823740235">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="336" y="72" width="609" height="536" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1615482537369" />
+    <state x="336" y="72" width="609" height="536" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1615823740235" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1615234336152">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -294,12 +340,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/producer/target/generated-test-sources/contracts/spring/contract/ContractVerifierTest.java</url>
+          <url>file://$PROJECT_DIR$/provider/target/generated-test-sources/contracts/spring/contract/ContractVerifierTest.java</url>
           <line>33</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/producer/src/main/java/com/dogs/DogController.java</url>
+          <url>file://$PROJECT_DIR$/provider/src/main/java/com/dogs/DogController.java</url>
           <line>24</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>

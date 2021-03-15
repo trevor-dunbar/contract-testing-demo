@@ -1,3 +1,6 @@
 /target/*
 /consumer/target/*
-/producer/target/*
+/provider/target/*
+/.idea/*
+/.idea
+.idea

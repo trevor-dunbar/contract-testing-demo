@@ -17,7 +17,7 @@ public class KarateMockContractTest {
 
     @BeforeClass
     public static void beforeClass() {
-        File file = new File("../producer/src/test/java/karate/mock/dog-mock.feature");
+        File file = new File("../provider/src/test/java/karate/mock/dog-mock.feature");
         server = FeatureServer.start(file, 8080, false, null);
     }
 
@@ -26,23 +26,23 @@ public class KarateMockContractTest {
         DogClient dogClient = new DogClient();
 
         //Get Dogs starts with no dogs
-        Dog[] getDogsResponse = dogClient.getDogsFromProducer();
+        Dog[] getDogsResponse = dogClient.getDogsFromProvider();
         assertEquals(getDogsResponse.length, 0);
 
         //Add a dog
         Dog dog = Dog.builder()
                 .name("New dog").owner("different owner").goodDog(false).puppies(emptyList())
                 .build();
-        Dog postDogResponse = dogClient.postDogToProducer(dog);
+        Dog postDogResponse = dogClient.postDogToProvider(dog);
         dog.setId(1);
         assertEquals(dog, postDogResponse);
 
         //get new dog
-        Dog getDogResponse = dogClient.getDogByIdFromProducer(1);
+        Dog getDogResponse = dogClient.getDogByIdFromProvider(1);
         assertEquals(getDogResponse, dog);
 
         //get all dogs has new dog
-        getDogsResponse = dogClient.getDogsFromProducer();
+        getDogsResponse = dogClient.getDogsFromProvider();
         assertEquals(getDogsResponse[0], dog);
     }
 

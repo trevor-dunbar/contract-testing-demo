@@ -1,0 +1,38 @@
+package com.dogs;
+
+import org.springframework.stereotype.Service;
+
+import java.util.*;
+
+import static java.util.Collections.emptyList;
+import static java.util.Collections.singletonList;
+
+@Service
+public class DogService {
+
+    private Map<Integer, Dog> dogDB;
+
+    public DogService(){
+        dogDB = new HashMap<>();
+
+        Dog scoobyDoo = Dog.builder().id(1).name("Scooby Doo").goodDog(true).puppies(emptyList()).build();
+        dogDB.put(scoobyDoo.getId(), scoobyDoo);
+    }
+
+
+    public List<Dog> getDogs() {
+        return new ArrayList<>(dogDB.values());
+    }
+
+    public Dog getDogById(int id) {
+        return dogDB.get(id);
+    }
+
+    public Dog addDog(Dog dog){
+        int id = dogDB.size() + 1;
+        dog.setId(id);
+
+        dogDB.put(id, dog);
+        return dog;
+    }
+}
