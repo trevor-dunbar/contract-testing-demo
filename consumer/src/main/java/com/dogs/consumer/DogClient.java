@@ -4,8 +4,6 @@ import org.springframework.http.HttpEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import static java.util.Objects.*;
-
 @Service
 public class DogClient {
 

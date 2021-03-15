@@ -31,8 +31,10 @@ public class DogService {
     }
 
     public Dog addDog(Dog dog) {
-        dogDB.put(dogDB.size() + 1, dog);
-        dog.setId(dogDB.size());
+        int id = dogDB.size() + 1;
+        dog.setId(id);
+
+        dogDB.put(id, dog);
         return dog;
     }
 }

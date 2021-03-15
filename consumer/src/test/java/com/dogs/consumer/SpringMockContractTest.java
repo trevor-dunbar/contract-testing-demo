@@ -39,21 +39,6 @@ class SpringMockContractTest {
     }
 
     @Test
-    public void getDogFromProviderDogClient_contractTest() {
-        // given:
-        DogClient client = new DogClient();
-
-        // when:
-        Dog dogResponse = client.getDogByIdFromProvider(1);
-
-        // then:
-//        BDDAssertions.then(dogResponseEntity.getStatusCodeValue()).isEqualTo(200);
-        BDDAssertions.then(dogResponse)
-                .isEqualTo(Dog.builder().id(1).name("Scooby Doo").owner("Shaggy").goodDog(true).build());
-    }
-
-
-    @Test
     public void getDogsFromProvider_contractTest(){
         //given
         RestTemplate restTemplate = new RestTemplate();

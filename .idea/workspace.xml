@@ -2,42 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99fc8acf-4b6b-45dc-b17b-b66df9c1ba36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/provider/src/test/java/spring/contract/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_intuit_karate_karate_apache_0_9_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_intuit_karate_karate_core_0_9_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_intuit_karate_karate_junit4_0_9_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_siegmar_fastcsv_1_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_picocli_picocli_4_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_30.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/dogs/consumer/DogClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/dogs/consumer/DogClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/dogs/consumer/DogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/dogs/consumer/DogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/dogs/consumer/Dogs.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/test/java/com/dogs/consumer/SpringMockContractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/test/java/com/dogs/consumer/SpringMockContractTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/provider/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/[Help" beforeDir="false" afterPath="$PROJECT_DIR$/provider/[Help" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/provider/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/provider/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/dogs/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/dogs/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/dogs/DogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/dogs/DogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/dogs/DogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/dogs/DogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/java/com/dogs/ProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/dogs/ProviderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/java/spring/contract/BaseClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/resources/contracts/get_dog.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/test/resources/contracts/get_dog.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/resources/contracts/get_dogs.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/test/resources/contracts/get_dogs.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/resources/contracts/post_dog.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/test/resources/contracts/post_dog.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/resources/contracts/requests-responses/getDogsResponse.json" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/test/resources/contracts/requests-responses/getDogsResponse.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/resources/contracts/requests-responses/postDogRequest.json" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/test/resources/contracts/requests-responses/postDogRequest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/src/test/resources/contracts/requests-responses/postDogResponse.json" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/test/resources/contracts/requests-responses/postDogResponse.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/dogs/DogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/dogs/DogService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,12 +42,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -95,16 +67,33 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.SpringMockContractTest">
+    <configuration name="ProviderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dogs.ProviderApplication" />
+      <module name="provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dogs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContractVerifierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="provider" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="spring.contract.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="spring.contract" />
       <option name="MAIN_CLASS_NAME" value="spring.contract.ContractVerifierTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,21 +110,6 @@
       <option name="MAIN_CLASS_NAME" value="com.dogs.consumer.KarateMockContractTest" />
       <option name="METHOD_NAME" value="getDogs_postDog_getDogs_getDog" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MockProviderContractTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="provider" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="karate.mock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="karate.mock" />
-      <option name="MAIN_CLASS_NAME" value="karate.mock.MockProviderContractTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,10 +147,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SpringMockContractTest" />
+        <item itemvalue="Application.ProviderApplication" />
         <item itemvalue="JUnit.ContractVerifierTest" />
         <item itemvalue="JUnit.KarateMockContractTest.getDogs_postDog_getDogs_getDog" />
         <item itemvalue="JUnit.ProviderContractTest" />
-        <item itemvalue="JUnit.MockProviderContractTest" />
       </list>
     </recent_temporary>
   </component>
@@ -194,10 +168,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="238" y="0" key="#ContractVerifierTest" timestamp="1615563538949">
+    <state x="238" y="0" key="#ContractVerifierTest" timestamp="1615579422507">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="238" y="0" key="#ContractVerifierTest/0.0.1280.680@0.0.1280.680" timestamp="1615563538949" />
+    <state x="238" y="0" key="#ContractVerifierTest/0.0.1280.680@0.0.1280.680" timestamp="1615579422507" />
     <state x="233" y="0" key="#Project_Structure" timestamp="1615233074006">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -206,6 +180,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="326" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1615233437502" />
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1615815713062">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1615815713062" />
     <state x="490" y="230" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1614975675298">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -230,22 +208,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1614975580592" />
-    <state width="1237" height="317" key="GridCell.Tab.0.bottom" timestamp="1615569958272">
+    <state width="1237" height="317" key="GridCell.Tab.0.bottom" timestamp="1615822662510">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="317" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1615569958272" />
-    <state width="1237" height="317" key="GridCell.Tab.0.center" timestamp="1615569958271">
+    <state width="1237" height="317" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1615822662510" />
+    <state width="1237" height="317" key="GridCell.Tab.0.center" timestamp="1615822662509">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="317" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1615569958271" />
-    <state width="1237" height="317" key="GridCell.Tab.0.left" timestamp="1615569958271">
+    <state width="1237" height="317" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1615822662509" />
+    <state width="1237" height="317" key="GridCell.Tab.0.left" timestamp="1615822662508">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="317" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1615569958271" />
-    <state width="1237" height="317" key="GridCell.Tab.0.right" timestamp="1615569958272">
+    <state width="1237" height="317" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1615822662508" />
+    <state width="1237" height="317" key="GridCell.Tab.0.right" timestamp="1615822662510">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="317" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1615569958272" />
+    <state width="1237" height="317" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1615822662510" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1615569914378">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -270,10 +248,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="254" height="198" key="RunAnythingAction_Filter_Popup/0.0.1280.680@0.0.1280.680" timestamp="1615220616499" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1615323269817">
+    <state x="0" y="0" key="SettingsEditor" timestamp="1615577242475">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1615323269817" />
+    <state x="0" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1615577242475" />
     <state x="336" y="72" width="609" height="536" key="find.popup" timestamp="1615569672437">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -286,16 +264,5 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1615394873548" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/provider/target/generated-test-sources/contracts/spring/contract/ContractVerifierTest.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

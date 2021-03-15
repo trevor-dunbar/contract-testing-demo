@@ -58,7 +58,7 @@
 
 	</dependencies>
 
-
+	<!--		Spring Cloud Contract-->
 	<dependencyManagement>
 		<dependencies>
 			<dependency>

@@ -45,7 +45,7 @@
 
 	</dependencies>
 
-<!--	spring cloud contract testing-->
+	<!--	spring cloud contract testing-->
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
