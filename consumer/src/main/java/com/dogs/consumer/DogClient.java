@@ -7,20 +7,18 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class DogClient {
 
-    private final String baseUrl = "http://localhost:8080";
-
     private final RestTemplate restTemplate = new RestTemplate();
 
     public Dog[] getDogsFromProvider() {
-        return restTemplate.getForEntity(baseUrl.concat("/dogs"), Dog[].class).getBody();
+        return restTemplate.getForEntity("http://localhost:8080/dog", Dog[].class).getBody();
     }
 
     public Dog getDogByIdFromProvider(int id) {
-        return restTemplate.getForEntity(baseUrl.concat("/dog/" + id), Dog.class).getBody();
+        return restTemplate.getForEntity("http://localhost:8080/dog/" + id, Dog.class).getBody();
     }
 
     public Dog postDogToProvider(Dog dog){
         HttpEntity<Dog> request = new HttpEntity<>(dog);
-        return restTemplate.postForEntity(baseUrl.concat("/dog"), request, Dog.class).getBody();
+        return restTemplate.postForEntity("http://localhost:8080/dog", request, Dog.class).getBody();
     }
 }

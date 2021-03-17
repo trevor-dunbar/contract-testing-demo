@@ -15,7 +15,7 @@ public class DogController {
 
     private final DogClient dogClient;
 
-    @GetMapping("/dogs")
+    @GetMapping("/dog")
     public List<Dog> getDogs() {
         return Arrays.asList(dogClient.getDogsFromProvider());
     }

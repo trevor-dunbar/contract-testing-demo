@@ -17,6 +17,7 @@ import static org.apache.commons.lang3.ArrayUtils.toArray;
 class SpringMockContractTest {
 
 
+    //WireMock Server
     @RegisterExtension
     public StubRunnerExtension stubRunner = new StubRunnerExtension()
             .downloadStub("com.dogs", "provider", "0.0.1-SNAPSHOT", "stubs")
@@ -44,7 +45,7 @@ class SpringMockContractTest {
         RestTemplate restTemplate = new RestTemplate();
 
         //when
-        ResponseEntity<Dog[]> dogResponseEntity = restTemplate.getForEntity("http://localhost:8080/dogs", Dog[].class);
+        ResponseEntity<Dog[]> dogResponseEntity = restTemplate.getForEntity("http://localhost:8080/dog", Dog[].class);
 
         //then
         BDDAssertions.then(dogResponseEntity.getStatusCodeValue()).isEqualTo(200);

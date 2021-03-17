@@ -5,6 +5,7 @@
 
     <groupId>com.dogs</groupId>
     <artifactId>contract-rest</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 

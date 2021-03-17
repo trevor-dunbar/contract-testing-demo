@@ -6,7 +6,7 @@ Contract.make {
     description "should return a list dogs"
 
     request {
-        url "/dogs"
+        url "/dog"
         method GET()
     }
 
